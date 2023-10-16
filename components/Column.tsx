@@ -2,8 +2,8 @@ import { PlusCircleIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { Draggable, Droppable } from "react-beautiful-dnd";
 import TodoCard from "./TodoCard";
-// import { useBoardStore } from "@/store/BoardStore";
-// import { useModalStore } from "@/store/ModalStore";
+import { useBoardStore } from "@/store/BoardStore";
+import { useModalStore } from "@/store/ModalStore";
 
 type Props = {
   id: TypedColumn;

@@ -1,5 +1,5 @@
 "use-client"
-import getUrl from "@/lib/getUrl";
+import getUrl from "@/utils/getUrl";
 import { useBoardStore } from "@/store/BoardStore";
 import { XCircleIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
